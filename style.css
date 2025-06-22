@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgba(255, 173, 241, 0.81);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+}
+
+img{
+    border-radius: 30px;
+    width: 300px;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+
+}
+
+.info p{
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+/* .opis{
+   background-color: rgba(135, 181, 130, 0.81);
+   padding: 20px;
+   /* padding right: 20px; */
+   /* padding left: 20px;
+   padding top: 20px;
+   padding bottom: 20px; */
+   /* border-radius: 50px;
+   margin: 0px;
+   border: 2px solid;
+} */ 
+
+.content{
+    max-width:750px;
+    margin:auto;
+
+}
+
+@media (max-width : 700px) {
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+a:active{
+   color:blue;
+}
+
+a:visited{
+    color:grey;
+}
+
+.info{
+    margin-bottom:20px ;
+    padding: 10px 20px;
+}
+
+.card{
+ padding: 15px 20px;
+ margin-bottom:20px;
+ border-radius:20px;
+}
+
+.bg-yellow{
+    margin-top: 10px;
+    background-color:#fff9dc;
+    border: 2px solid;
+
+}
+.bg-green{
+   background-color:#e5ffe7;
+   border: 2px solid;
+}
+.list{
+  padding:0 30px;
+}
+
+.list li{
+
+    margin-bottom: 6px;
+}
+
+.bg-red{
+  background-color:#ffe5e5;
+  border: 2px solid;
+}
+.bg-fiolet{
+   background-color: rgb(203, 163, 241);
+   border: 2px solid;
+}
+
+.tab {
+   width:100%;
+   text-transform:lowercase;
+}
+
+.car h2{
+  text-align:center;
+}
+
+.car label {
+    display: block;
+    font-size: 14px;
+    color:grey;
+}
+
+.car input,
+.car textarea {
+   width:100%;
+   box-sizing:border-box;
+   border:none;
+   border-bottom:1px solid white;
+   padding: 15px 0 10px;
+   outline: none;
+   font-family: inherit;
+   background-color: transparent;
+   color:#000;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row> .car{
+
+    width:50%;
+    margin-right:20px;
+}
+
+.row> .car:last-child{
+  margin-right: 0;
+}
+
+/* .btn {
+    background-color: #111;
+    padding: 15px 20 px;
+    color: #fff;
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity:0.0; */
